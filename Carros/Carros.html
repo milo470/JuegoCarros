@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de carros UD</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body onload="main();">
+    <canvas id="gameBoard" width="1450" height="620"></canvas>
+    <button id="btnScore" onclick="send()" style="zIndex : 2;">Enviar Puntaje</button>
+    <button id="again" onclick="restart()">Reiniciar!</button>
+
+
+    <div id="scoreContainer">
+        <div id="score">
+            0
+        </div>
+    </div>
+
+</body>
+
+<script src="script/logica.js"></script>
+<script src="script/pantalla.js"></script>
+<script src="script/carros.js"></script>
+<script src="script/controles.js"></script>
+<script src="script/juego.js"></script>
+<script src="script/objetos.js"></script>
+</html>
